@@ -17,6 +17,7 @@ public class d0 {
         if (visited[y][x]) {
             return false;
         }
+        
         visited[y][x] = true;
 
         if (waterHeight > board[y - 1][x].height) {// UP
